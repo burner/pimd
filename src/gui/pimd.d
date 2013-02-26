@@ -104,7 +104,8 @@ class Pimd : MainWindow {
 }
 
 void main(string[] args) {
-	Main.init(args);
-	new Pimd();
-	Main.run();
+	return;
+	//Main.init(args);
+	//new Pimd();
+	//Main.run();
 }
