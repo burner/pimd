@@ -1,7 +1,8 @@
 src = Split("""
 src/gui/pimd.d
-src/gui/mailwindow.d
 """)
+
+#src/gui/mailwindow.d
 
 src += Split("""
 src/libetpand/etpan.d
