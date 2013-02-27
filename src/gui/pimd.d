@@ -1,5 +1,6 @@
 module gui.pimd;
 
+version(gtkd) {
 import gtk.MainWindow;
 import gtk.AboutDialog;
 import gtk.Dialog;
@@ -102,6 +103,7 @@ class Pimd : MainWindow {
 		ad.showAll();
 	}
 }
+} //version(gtkd)
 
 void main(string[] args) {
 	return;

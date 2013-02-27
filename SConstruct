@@ -1,11 +1,11 @@
 src = Split("""
 src/gui/pimd.d
-src/gui/mailwindow.d
 """)
 
+#src/gui/mailwindow.d
+
 src += Split("""
-src/libetpand/datatypes/base64.d
-src/libetpand/datatypes/connect.d
+src/libetpand/libetpan.d
 """);
 
 env = Environment()
