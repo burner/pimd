@@ -4,8 +4,7 @@ src/gui/mailwindow.d
 """)
 
 src += Split("""
-src/libetpand/datatypes/base64.d
-src/libetpand/datatypes/connect.d
+src/libetpand/etpan.d
 """);
 
 env = Environment()
