@@ -9757,6 +9757,8 @@ enum {
   MAILIMF_ERROR_INVAL,
   MAILIMF_ERROR_FILE
 }
+
+till mailimf_types.h
 +/
 
 
